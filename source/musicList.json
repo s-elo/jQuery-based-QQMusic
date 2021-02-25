@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Red",
+		"singer": "Taylor Swift",
+		"album": "Red",
+		"time": "03:43",
+		"link_url": "./source/TaylorSwift-Red.mp3",
+		"cover": "./source/black.jpg",
+		"link_lyr": "./source/red_lyric.txt"
+	},
+	{
+		"name": "Gravity",
+		"singer": "TimMc Graw",
+		"album": "Gravity",
+		"time": "03:29",
+		"link_url": "./source/TimMcGraw-Gravity.mp3",
+		"cover": "./source/record2.jpg",
+		"link_lyr": "./source/Gravity.txt"
+	},
+	{
+		"name": "Red",
+		"singer": "Taylor Swift",
+		"album": "Red",
+		"time": "03:43",
+		"link_url": "./source/TaylorSwift-Red.mp3",
+		"cover": "./source/record3.jpg",
+		"link_lyr": "./source/red_lyric.txt"
+	},
+	{
+		"name": "Red",
+		"singer": "Taylor Swift",
+		"album": "Red",
+		"time": "03:43",
+		"link_url": "./source/TaylorSwift-Red.mp3",
+		"cover": "./source/batman.jpg",
+		"link_lyr": "./source/red_lyric.txt"
+	},
+	{
+		"name": "Red",
+		"singer": "Taylor Swift",
+		"album": "Red",
+		"time": "03:43",
+		"link_url": "./source/TaylorSwift-Red.mp3",
+		"cover": "./source/pigNight.jpg",
+		"link_lyr": "./source/red_lyric.txt"
+	}
+]

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+		
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo"><a href="#">QQMusic</a></div>
+			<ul class="register">
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Setting</a></li>
+			</ul>
+		</div>
+		
+		<div class="content">
+			<div class="content_in">
+				<div class="content_left">
+					<div class="content_toolBar">
+						<span><i class="glyphicon glyphicon-heart"></i> Favorite</span>
+						<span><i class="glyphicon glyphicon-plus"></i> Add to</span>
+						<span><i class="glyphicon glyphicon-download-alt"></i> Download</span>
+						<span><i class="glyphicon glyphicon-trash"></i> Delete</span>
+						<span><i class="glyphicon glyphicon-erase"></i> Clean list</span>
+					</div>
+					<div class="content_list" data-mcs-theme="minimal-dark">
+						<ul>
+							<li class="list_title">
+								<div class="list_check"><i></i></div>
+								<div class="list_number"></div>
+								<div class="list_name">Song</div>
+								<div class="list_singer">Singer</div>	
+								<div class="list_time">Duration</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="content_right">
+					<div class="song_info">
+						<a href="javascript::" class="song_info_pic">
+							<img src="img/profile.jpg" >
+						</a>
+						<div class="song_info_name">Song name:
+							<a href="javascript::">Gravity</a>
+						</div>
+						<div class="song_info_singer">Singer:
+							<a href="javascript::">Gravity</a>
+						</div>
+						<div class="song_info_album">Ablum name:
+							<a href="javascript::">Gravity</a>
+						</div>
+					</div>
+					<div class="song_lyric_container">
+						<ul class="song_lyric">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="footer_in">
+				<a href="javascript:;" title="previous one" class="music_pre"><i class="glyphicon glyphicon-step-backward"></i></a>
+				<a href="javascript:;" title="play" class="music_play"><i class="glyphicon glyphicon-play"></i></a>
+				<a href="javascript:;" title="next one" class="music_next"><i class="glyphicon glyphicon-step-forward"></i></a>
+				<div class="music_progress_info">
+					<div class="music_progress_top">
+						<span class="music_progress_name">Gravity / Leo</span>
+						<span class="music_progress_time">00:00 / 04:18</span>
+					</div>
+					<div class="music_progress_bar">
+						<div class="music_progress_line">
+							<div class="music_progress_dot">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="javascript:;" title="change mode" class="music_mode"><i class="glyphicon glyphicon-retweet"></i></a>
+				<a href="javascript:;" title="add to favorite" class="music_fav"><i class="glyphicon glyphicon-heart"></i></a>
+				<a href="javascript:;" title="download" class="music_down"><i class="glyphicon glyphicon-download-alt"></i></a>
+				<a href="javascript:;" title="comments" class="music_comment"><i class="glyphicon glyphicon-comment"></i></a>
+				<a href="javascript:;" title="pure mode" class="music_pure"><i class="glyphicon glyphicon-leaf"></i></a>
+				<div class="music_voice_info">
+					<a href="javascript::" class="music_voice_icon"><i class="glyphicon glyphicon-volume-up"></i></a>
+					<div class="music_voice_bar">
+						<div class="music_voice_line">
+							<div class="music_voice_dot">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="mask_bg"></div>
+		<div class="mask"></div>
+		<audio src="" >
+			当前浏览器不支持audio
+		</audio>
+		<script type="text/javascript" src="js/player.js"></script>
+		<script type="text/javascript" src="js/progress.js"></script>
+		<script type="text/javascript" src="js/lyric.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
